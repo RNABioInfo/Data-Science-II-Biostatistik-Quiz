@@ -12,7 +12,7 @@ const progressDiv = document.getElementById("progress");
 
 async function loadQuestions() {
     try {
-        const response = await fetch('questions.json');
+        const response = await fetch('./questions.json');
         if (!response.ok) throw new Error('Netzwerk-Antwort war nicht ok');
         
         questions = await response.json();
