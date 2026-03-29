@@ -3,82 +3,82 @@ const QUESTIONS = {
         {
             "text": "Warum soll ich mich als Biologe mit Statistik beschaeftigen?",
             "answers": [
-                "Um biologische Daten wissenschaftlich auszuwerten und Zusammenhaenge zu erkennen",
-                "Weil es in jedem Studiengang Pflicht ist",
                 "Um komplexe mathematische Formeln auswendig zu lernen",
-                "Statistik ist nur fuer Mathematiker relevant"
+                "Weil es in jedem Studiengang Pflicht ist",
+                "Statistik ist nur fuer Mathematiker relevant",
+                "Um biologische Daten wissenschaftlich auszuwerten und Zusammenhaenge zu erkennen"
             ],
-            "correct": 0
+            "correct": 3
         },
         {
             "text": "Was sind Merkmal und Merkmalsauspraegung?",
             "answers": [
-                "Merkmal ist eine beobachtbare Eigenschaft, Merkmalsauspraegung ist der konkrete Wert",
-                "Beide Begriffe bezeichnen das Gleiche",
+                "Merkmal ist theoretisch, Merkmalsauspraegung ist praktisch",
                 "Merkmal ist der Messwert, Merkmalsauspraegung ist der Fehler",
-                "Merkmal ist theoretisch, Merkmalsauspraegung ist praktisch"
+                "Merkmal ist eine beobachtbare Eigenschaft, Merkmalsauspraegung ist der konkrete Wert",
+                "Beide Begriffe bezeichnen das Gleiche"
             ],
-            "correct": 0
+            "correct": 2
         },
         {
             "text": "Welche Skalenniveaus gibt es?",
             "answers": [
-                "Nominal, Ordinal, Intervall, Verhaeltnis",
                 "Klein, Mittel, Gross",
+                "Diskret, Stetig, Gemischt",
                 "Linear, Exponentiell, Logarithmisch",
-                "Diskret, Stetig, Gemischt"
+                "Nominal, Ordinal, Intervall, Verhaeltnis"
             ],
-            "correct": 0
+            "correct": 3
         },
         {
             "text": "Welche Arten von Messunsicherheiten/Fehlern gibt es?",
             "answers": [
-                "Systematische und zufaellige Fehler",
                 "Nur mathematische Fehler",
                 "Grobe, mittlere und feine Fehler",
+                "Systematische und zufaellige Fehler",
                 "Nur menschliche Fehler"
             ],
-            "correct": 0
+            "correct": 2
         },
         {
             "text": "Warum ist die Summe der Abweichungen vom Mittelwert kein sinnvolles Mass fuer die Messunsicherheit?",
             "answers": [
-                "Weil sich positive und negative Abweichungen aufheben und die Summe immer Null ergibt",
                 "Weil die Berechnung zu kompliziert ist",
                 "Weil der Mittelwert nicht genau genug ist",
-                "Weil nur grosse Abweichungen wichtig sind"
+                "Weil nur grosse Abweichungen wichtig sind",
+                "Weil sich positive und negative Abweichungen aufheben und die Summe immer Null ergibt"
             ],
-            "correct": 0
+            "correct": 3
         },
         {
             "text": "Was besagt die 3-Sigma-Regel?",
             "answers": [
-                "Etwa 99,7% der Werte liegen innerhalb von 3 Standardabweichungen vom Mittelwert",
                 "Jeder dritte Messwert ist ein Ausreisser",
+                "Die Standardabweichung muss durch 3 geteilt werden",
                 "Man muss mindestens 3 Messungen durchfuehren",
-                "Die Standardabweichung muss durch 3 geteilt werden"
+                "Etwa 99,7% der Werte liegen innerhalb von 3 Standardabweichungen vom Mittelwert"
             ],
-            "correct": 0
+            "correct": 3
         },
         {
             "text": "Was ist der Standardfehler?",
             "answers": [
-                "Die Standardabweichung des Mittelwerts einer Stichprobe",
-                "Der groesste Fehler in einer Messreihe",
                 "Die Differenz zwischen zwei Messungen",
+                "Der groesste Fehler in einer Messreihe",
+                "Die Standardabweichung des Mittelwerts einer Stichprobe",
                 "Ein Fehler, der immer auftritt"
             ],
-            "correct": 0
+            "correct": 2
         },
         {
             "text": "Was ist die Idee hinter der Gaussschen Methode?",
             "answers": [
-                "Fehlerfortpflanzung durch partielle Ableitungen zu berechnen",
                 "Alle Fehler zu ignorieren",
-                "Nur den groessten Fehler zu beruecksichtigen",
-                "Fehler durch Mittelwertbildung zu eliminieren"
+                "Fehler durch Mittelwertbildung zu eliminieren",
+                "Fehlerfortpflanzung durch partielle Ableitungen zu berechnen",
+                "Nur den groessten Fehler zu beruecksichtigen"
             ],
-            "correct": 0
+            "correct": 2
         }
     ],
     "VL2: Deskriptive Statistik": [
@@ -86,8 +86,8 @@ const QUESTIONS = {
             "text": "Was ist ein Histogramm und woran kann man die rel./abs. Haeufigkeit darin ablesen?",
             "answers": [
                 "Eine Darstellung der Haeufigkeitsverteilung; rel. Haeufigkeit an der Flaeche, abs. Haeufigkeit an der Hoehe mal Klassenbreite",
-                "Ein Kreisdiagramm zur Darstellung von Anteilen",
                 "Eine Tabelle mit allen Messwerten",
+                "Ein Kreisdiagramm zur Darstellung von Anteilen",
                 "Ein Streudiagramm zur Korrelationsanalyse"
             ],
             "correct": 0
@@ -95,104 +95,104 @@ const QUESTIONS = {
         {
             "text": "Was beschreibt die empirische Verteilungsfunktion?",
             "answers": [
-                "Den Anteil der Beobachtungen, die kleiner oder gleich einem bestimmten Wert sind",
-                "Die durchschnittliche Haeufigkeit aller Werte",
                 "Die Summe aller Messwerte",
-                "Die Standardabweichung der Daten"
+                "Die Standardabweichung der Daten",
+                "Den Anteil der Beobachtungen, die kleiner oder gleich einem bestimmten Wert sind",
+                "Die durchschnittliche Haeufigkeit aller Werte"
             ],
-            "correct": 0
+            "correct": 2
         },
         {
             "text": "Welche Lageparameter gibt es?",
             "answers": [
-                "Mittelwert, Median, Modus",
-                "Varianz, Standardabweichung, Spannweite",
                 "Minimum, Maximum, Quartile",
-                "Nur den arithmetischen Mittelwert"
+                "Varianz, Standardabweichung, Spannweite",
+                "Nur den arithmetischen Mittelwert",
+                "Mittelwert, Median, Modus"
             ],
-            "correct": 0
+            "correct": 3
         },
         {
             "text": "Was ist ein Boxplot?",
             "answers": [
-                "Eine grafische Darstellung von Median, Quartilen und Ausreissern",
-                "Ein dreidimensionales Diagramm",
+                "Ein Histogramm mit farbigen Balken",
                 "Eine Tabelle mit statistischen Kennzahlen",
-                "Ein Histogramm mit farbigen Balken"
+                "Ein dreidimensionales Diagramm",
+                "Eine grafische Darstellung von Median, Quartilen und Ausreissern"
             ],
-            "correct": 0
+            "correct": 3
         },
         {
             "text": "Was ist der Unterschied zwischen empirischer Varianz und Stichprobenvarianz?",
             "answers": [
-                "Stichprobenvarianz teilt durch n-1, empirische Varianz durch n",
+                "Stichprobenvarianz wird nur bei kleinen Stichproben verwendet",
                 "Es gibt keinen Unterschied",
-                "Empirische Varianz ist immer groesser",
-                "Stichprobenvarianz wird nur bei kleinen Stichproben verwendet"
+                "Stichprobenvarianz teilt durch n-1, empirische Varianz durch n",
+                "Empirische Varianz ist immer groesser"
             ],
-            "correct": 0
+            "correct": 2
         },
         {
             "text": "Was ist eine Dichte?",
             "answers": [
-                "Die Ableitung der Verteilungsfunktion bei stetigen Zufallsvariablen",
-                "Die Anzahl der Messwerte pro Einheit",
                 "Das Verhaeltnis von Masse zu Volumen",
-                "Die Summe aller Wahrscheinlichkeiten"
+                "Die Summe aller Wahrscheinlichkeiten",
+                "Die Anzahl der Messwerte pro Einheit",
+                "Die Ableitung der Verteilungsfunktion bei stetigen Zufallsvariablen"
             ],
-            "correct": 0
+            "correct": 3
         },
         {
             "text": "Wie haengt die Verteilungsfunktion mit der Dichte zusammen?",
             "answers": [
                 "Die Verteilungsfunktion ist das Integral der Dichte",
                 "Die Dichte ist das Integral der Verteilungsfunktion",
-                "Beide sind unabhaengig voneinander",
-                "Sie sind identisch"
+                "Sie sind identisch",
+                "Beide sind unabhaengig voneinander"
             ],
             "correct": 0
         },
         {
             "text": "Was ist die Standardnormalverteilung und warum ist sie so bedeutend?",
             "answers": [
+                "Eine Verteilung nur fuer grosse Stichproben",
                 "Normalverteilung mit Erwartungswert 0 und Varianz 1; dient als Referenz fuer Standardisierung",
-                "Eine gleichmaessige Verteilung aller Werte",
                 "Die haeufigste Verteilung in der Natur",
-                "Eine Verteilung nur fuer grosse Stichproben"
+                "Eine gleichmaessige Verteilung aller Werte"
             ],
-            "correct": 0
+            "correct": 1
         }
     ],
     "VL3: Zusammenhangsanalyse": [
         {
             "text": "Was ist eine Kontingenztafel?",
             "answers": [
-                "Eine Kreuztabelle zur Darstellung der gemeinsamen Haeufigkeitsverteilung zweier Merkmale",
                 "Eine Tabelle fuer stetige Daten",
+                "Ein Diagramm zur Darstellung von Zeitreihen",
                 "Eine Liste aller moeglichen Kombinationen",
-                "Ein Diagramm zur Darstellung von Zeitreihen"
+                "Eine Kreuztabelle zur Darstellung der gemeinsamen Haeufigkeitsverteilung zweier Merkmale"
             ],
-            "correct": 0
+            "correct": 3
         },
         {
             "text": "Was ist die Idee hinter der Zusammenhangsanalyse in Kontingenztafeln?",
             "answers": [
-                "Zu pruefen, ob die beobachteten Haeufigkeiten von den erwarteten bei Unabhaengigkeit abweichen",
                 "Alle Werte zu addieren",
-                "Den Mittelwert der Tabelle zu berechnen",
-                "Die groesste Haeufigkeit zu finden"
+                "Die groesste Haeufigkeit zu finden",
+                "Zu pruefen, ob die beobachteten Haeufigkeiten von den erwarteten bei Unabhaengigkeit abweichen",
+                "Den Mittelwert der Tabelle zu berechnen"
             ],
-            "correct": 0
+            "correct": 2
         },
         {
             "text": "Wie wird der Chi-Quadrat-Koeffizient interpretiert?",
             "answers": [
-                "Je groesser der Wert, desto staerker die Abweichung von der Unabhaengigkeit",
-                "Ein Wert von 0 bedeutet perfekte Abhaengigkeit",
+                "Der Wert sollte immer 1 sein",
                 "Negative Werte zeigen keinen Zusammenhang",
-                "Der Wert sollte immer 1 sein"
+                "Ein Wert von 0 bedeutet perfekte Abhaengigkeit",
+                "Je groesser der Wert, desto staerker die Abweichung von der Unabhaengigkeit"
             ],
-            "correct": 0
+            "correct": 3
         },
         {
             "text": "Welche beiden Korrelationskoeffizienten kennen Sie und wie unterscheiden sie sich?",
@@ -208,9 +208,9 @@ const QUESTIONS = {
             "text": "Wie funktioniert die Methode der kleinsten Quadrate?",
             "answers": [
                 "Minimierung der Summe der quadrierten Abweichungen zwischen beobachteten und vorhergesagten Werten",
-                "Addition aller Quadrate der Messwerte",
                 "Berechnung des kleinsten Wertes",
-                "Mittelung aller quadrierten Differenzen"
+                "Mittelung aller quadrierten Differenzen",
+                "Addition aller Quadrate der Messwerte"
             ],
             "correct": 0
         },
@@ -218,83 +218,83 @@ const QUESTIONS = {
             "text": "Wie kann man die Qualitaet einer linearen Regression beurteilen?",
             "answers": [
                 "Durch das Bestimmtheitsmass R-Quadrat, das den erklaerten Varianzanteil angibt",
-                "Durch Zaehlen der Datenpunkte",
+                "Nur durch visuelle Inspektion",
                 "Durch die Steigung der Geraden",
-                "Nur durch visuelle Inspektion"
+                "Durch Zaehlen der Datenpunkte"
             ],
             "correct": 0
         },
         {
             "text": "Besteht ein Zusammenhang zwischen Bestimmtheitsmass und Korrelationskoeffizient?",
             "answers": [
-                "Ja, R-Quadrat ist das Quadrat des Korrelationskoeffizienten nach Pearson",
                 "Nein, sie sind voellig unabhaengig",
+                "R-Quadrat ist immer groesser als r",
                 "Sie sind identisch",
-                "R-Quadrat ist immer groesser als r"
+                "Ja, R-Quadrat ist das Quadrat des Korrelationskoeffizienten nach Pearson"
             ],
-            "correct": 0
+            "correct": 3
         }
     ],
     "VL4: Wahrscheinlichkeitstheorie": [
         {
             "text": "Was besagen die Axiome von Kolmogorov?",
             "answers": [
-                "Grundlegende Eigenschaften von Wahrscheinlichkeiten: Nicht-Negativitaet, Normierung, Additivitaet",
-                "Regeln zur Berechnung von Mittelwerten",
                 "Bedingungen fuer Normalverteilungen",
-                "Definitionen von Zufallsvariablen"
+                "Definitionen von Zufallsvariablen",
+                "Grundlegende Eigenschaften von Wahrscheinlichkeiten: Nicht-Negativitaet, Normierung, Additivitaet",
+                "Regeln zur Berechnung von Mittelwerten"
             ],
-            "correct": 0
+            "correct": 2
         },
         {
             "text": "Was besagt das empirische Gesetz der grossen Zahlen?",
             "answers": [
+                "Je mehr Messungen, desto groesser die Fehler",
                 "Die relative Haeufigkeit naehert sich bei wachsender Anzahl der Versuche der theoretischen Wahrscheinlichkeit",
                 "Grosse Zahlen sind wahrscheinlicher als kleine",
-                "Je mehr Messungen, desto groesser die Fehler",
                 "Die Summe aller Wahrscheinlichkeiten ist unendlich"
             ],
-            "correct": 0
+            "correct": 1
         },
         {
             "text": "Was ist die Laplace-Wahrscheinlichkeit?",
             "answers": [
-                "Bei gleich wahrscheinlichen Ergebnissen: P = guenstige Faelle / moegliche Faelle",
                 "Die Wahrscheinlichkeit komplexer Ereignisse",
-                "Eine spezielle Normalverteilung",
-                "Die Wahrscheinlichkeit seltener Ereignisse"
+                "Die Wahrscheinlichkeit seltener Ereignisse",
+                "Bei gleich wahrscheinlichen Ergebnissen: P = guenstige Faelle / moegliche Faelle",
+                "Eine spezielle Normalverteilung"
             ],
-            "correct": 0
+            "correct": 2
         },
         {
             "text": "Was ist der Binomialkoeffizient?",
             "answers": [
-                "Die Anzahl der Moeglichkeiten, k Elemente aus n auszuwaehlen: n ueber k",
-                "Das Produkt zweier Zahlen",
+                "Ein Koeffizient der Regressionsgleichung",
                 "Die Summe von Binomialverteilungen",
-                "Ein Koeffizient der Regressionsgleichung"
+                "Das Produkt zweier Zahlen",
+                "Die Anzahl der Moeglichkeiten, k Elemente aus n auszuwaehlen: n ueber k"
             ],
-            "correct": 0
+            "correct": 3
         },
         {
             "text": "Was ist eine bedingte Wahrscheinlichkeit?",
             "answers": [
-                "Die Wahrscheinlichkeit von A unter der Bedingung, dass B eingetreten ist: P(A|B)",
                 "Eine Wahrscheinlichkeit, die von vielen Bedingungen abhaengt",
-                "Die Summe zweier Wahrscheinlichkeiten",
-                "Eine Wahrscheinlichkeit nahe Null"
+                "Eine Wahrscheinlichkeit nahe Null",
+                "Die Wahrscheinlichkeit von A unter der Bedingung, dass B eingetreten ist: P(A|B)",
+                "Die Summe zweier Wahrscheinlichkeiten"
             ],
-            "correct": 0
+            "correct": 2
         },
         {
             "text": "Wann sind zwei Ereignisse stochastisch unabhaengig?",
             "answers": [
-                "Wenn P(A und B) = P(A) mal P(B)",
+                "Wenn ihre Summe 1 ergibt",
                 "Wenn sie niemals gleichzeitig auftreten",
-                "Wenn sie identisch sind",
-                "Wenn ihre Summe 1 ergibt"
+                "Wenn P(A und B) = P(A) mal P(B)",
+                "Wenn sie identisch sind"
             ],
-            "correct": 0
+            "correct": 2
         },
         {
             "text": "Was besagt der Satz der totalen Wahrscheinlichkeit?",
@@ -309,12 +309,12 @@ const QUESTIONS = {
         {
             "text": "Was besagt der Satz von Bayes?",
             "answers": [
-                "Erlaubt die Umkehrung bedingter Wahrscheinlichkeiten: P(A|B) aus P(B|A)",
-                "Die Wahrscheinlichkeit ist immer symmetrisch",
                 "Bedingte Wahrscheinlichkeiten sind immer gleich",
-                "Nur fuer unabhaengige Ereignisse anwendbar"
+                "Erlaubt die Umkehrung bedingter Wahrscheinlichkeiten: P(A|B) aus P(B|A)",
+                "Nur fuer unabhaengige Ereignisse anwendbar",
+                "Die Wahrscheinlichkeit ist immer symmetrisch"
             ],
-            "correct": 0
+            "correct": 1
         }
     ],
     "VL5: Zufallsvariablen": [
@@ -322,9 +322,9 @@ const QUESTIONS = {
             "text": "Was ist eine Zufallsvariable?",
             "answers": [
                 "Eine Funktion, die jedem Ergebnis eines Zufallsexperiments eine Zahl zuordnet",
-                "Eine Variable, die zufaellig ausgewaehlt wird",
+                "Eine beliebige mathematische Variable",
                 "Ein Messwert mit grosser Unsicherheit",
-                "Eine beliebige mathematische Variable"
+                "Eine Variable, die zufaellig ausgewaehlt wird"
             ],
             "correct": 0
         },
@@ -341,49 +341,49 @@ const QUESTIONS = {
         {
             "text": "Was ist eine Bernoulli-Variable?",
             "answers": [
-                "Eine diskrete Zufallsvariable mit nur zwei moeglichen Werten (0 und 1)",
                 "Eine stetige Zufallsvariable",
-                "Eine Variable mit Normalverteilung",
-                "Eine Variable mit unendlich vielen Werten"
+                "Eine Variable mit unendlich vielen Werten",
+                "Eine diskrete Zufallsvariable mit nur zwei moeglichen Werten (0 und 1)",
+                "Eine Variable mit Normalverteilung"
             ],
-            "correct": 0
+            "correct": 2
         },
         {
             "text": "Was ist der Erwartungswert einer Zufallsvariablen?",
             "answers": [
-                "Der gewichtete Durchschnitt aller moeglichen Werte mit ihren Wahrscheinlichkeiten",
                 "Der haeufigste Wert",
                 "Der Median der Verteilung",
+                "Der gewichtete Durchschnitt aller moeglichen Werte mit ihren Wahrscheinlichkeiten",
                 "Die Summe aller Werte"
             ],
-            "correct": 0
+            "correct": 2
         },
         {
             "text": "Wie berechnet sich die Varianz einer Zufallsvariablen?",
             "answers": [
-                "Var(X) = E[(X - E[X])^2] = E[X^2] - (E[X])^2",
                 "Als Summe aller Abweichungen",
                 "Als Quadrat des Erwartungswerts",
-                "Als Differenz zwischen Maximum und Minimum"
+                "Als Differenz zwischen Maximum und Minimum",
+                "Var(X) = E[(X - E[X])^2] = E[X^2] - (E[X])^2"
             ],
-            "correct": 0
+            "correct": 3
         },
         {
             "text": "Was besagt der Verschiebungssatz?",
             "answers": [
-                "Var(X) = E[X^2] - (E[X])^2 - eine alternative Berechnungsformel fuer die Varianz",
                 "Der Erwartungswert kann verschoben werden",
+                "Var(X) = E[X^2] - (E[X])^2 - eine alternative Berechnungsformel fuer die Varianz",
                 "Die Verteilung kann horizontal verschoben werden",
                 "Varianzen koennen addiert werden"
             ],
-            "correct": 0
+            "correct": 1
         },
         {
             "text": "Was kann man mit der Binomialverteilung modellieren?",
             "answers": [
                 "Die Anzahl der Erfolge bei n unabhaengigen Bernoulli-Experimenten",
-                "Beliebige stetige Prozesse",
                 "Nur normalverteilte Daten",
+                "Beliebige stetige Prozesse",
                 "Zeitreihen mit Trend"
             ],
             "correct": 0
@@ -391,154 +391,154 @@ const QUESTIONS = {
         {
             "text": "Was ist das Besondere an der Poisson-Verteilung?",
             "answers": [
-                "Sie modelliert seltene Ereignisse und ist ein Grenzfall der Binomialverteilung",
                 "Sie ist immer symmetrisch",
-                "Sie hat keine Parameter",
-                "Sie ist nur fuer grosse Stichproben geeignet"
+                "Sie modelliert seltene Ereignisse und ist ein Grenzfall der Binomialverteilung",
+                "Sie ist nur fuer grosse Stichproben geeignet",
+                "Sie hat keine Parameter"
             ],
-            "correct": 0
+            "correct": 1
         }
     ],
     "VL6: Stetige Verteilungen": [
         {
             "text": "Was ist das Spezielle an Wahrscheinlichkeiten stetiger Zufallsvariablen?",
             "answers": [
-                "P(X = x) = 0 fuer jeden einzelnen Wert; Wahrscheinlichkeiten nur fuer Intervalle",
+                "Es gibt nur endlich viele Werte",
                 "Alle Werte haben die gleiche Wahrscheinlichkeit",
                 "Die Wahrscheinlichkeiten sind immer 1",
-                "Es gibt nur endlich viele Werte"
+                "P(X = x) = 0 fuer jeden einzelnen Wert; Wahrscheinlichkeiten nur fuer Intervalle"
             ],
-            "correct": 0
+            "correct": 3
         },
         {
             "text": "Wie sieht die Dichtefunktion einer Gleichverteilung aus?",
             "answers": [
-                "Eine konstante Funktion im Intervall [a,b], ausserhalb 0",
+                "Eine Treppenfunktion",
                 "Eine Glockenkurve",
-                "Eine exponentielle Funktion",
-                "Eine Treppenfunktion"
+                "Eine konstante Funktion im Intervall [a,b], ausserhalb 0",
+                "Eine exponentielle Funktion"
             ],
-            "correct": 0
+            "correct": 2
         },
         {
             "text": "Wie berechnet man den Erwartungswert einer stetigen Zufallsvariablen?",
             "answers": [
-                "E[X] = Integral von x mal f(x) dx ueber den gesamten Wertebereich",
-                "Als Summe aller Werte",
                 "Als Median der Dichtefunktion",
+                "Als Summe aller Werte",
+                "E[X] = Integral von x mal f(x) dx ueber den gesamten Wertebereich",
                 "Durch Ableitung der Verteilungsfunktion"
             ],
-            "correct": 0
+            "correct": 2
         },
         {
             "text": "Warum ist die Standardnormalverteilung so bedeutsam?",
             "answers": [
-                "Jede Normalverteilung kann durch Standardisierung darauf zurueckgefuehrt werden",
+                "Sie hat keine Parameter",
                 "Sie ist die einfachste Verteilung",
                 "Alle Daten folgen dieser Verteilung",
-                "Sie hat keine Parameter"
+                "Jede Normalverteilung kann durch Standardisierung darauf zurueckgefuehrt werden"
             ],
-            "correct": 0
+            "correct": 3
         },
         {
             "text": "Wann sind Zufallsvariablen unabhaengig?",
             "answers": [
+                "Wenn sie aus verschiedenen Experimenten stammen",
                 "Wenn die gemeinsame Verteilung das Produkt der Randverteilungen ist",
-                "Wenn sie nicht korreliert sind",
                 "Wenn sie verschiedene Erwartungswerte haben",
-                "Wenn sie aus verschiedenen Experimenten stammen"
+                "Wenn sie nicht korreliert sind"
             ],
-            "correct": 0
+            "correct": 1
         },
         {
             "text": "Was sind Kovarianz und Korrelationskoeffizient?",
             "answers": [
-                "Kovarianz misst linearen Zusammenhang, Korrelation ist die standardisierte Kovarianz",
                 "Beides sind Lageparameter",
-                "Masse fuer die Variabilitaet einzelner Variablen",
-                "Nur fuer kategoriale Daten geeignet"
+                "Kovarianz misst linearen Zusammenhang, Korrelation ist die standardisierte Kovarianz",
+                "Nur fuer kategoriale Daten geeignet",
+                "Masse fuer die Variabilitaet einzelner Variablen"
             ],
-            "correct": 0
+            "correct": 1
         },
         {
             "text": "Wie kann man die Varianz der Summe zweier Zufallsvariablen berechnen?",
             "answers": [
-                "Var(X + Y) = Var(X) + Var(Y) + 2 mal Cov(X,Y)",
-                "Einfach die Varianzen addieren",
                 "Die Varianzen multiplizieren",
-                "Den Erwartungswert quadrieren"
+                "Var(X + Y) = Var(X) + Var(Y) + 2 mal Cov(X,Y)",
+                "Den Erwartungswert quadrieren",
+                "Einfach die Varianzen addieren"
             ],
-            "correct": 0
+            "correct": 1
         }
     ],
     "VL7: Schaetztheorie": [
         {
             "text": "Was besagt das Gesetz der grossen Zahlen?",
             "answers": [
-                "Der Stichprobenmittelwert konvergiert mit wachsendem n gegen den Erwartungswert",
+                "Alle Werte naehern sich dem Median",
                 "Grosse Stichproben sind immer besser",
                 "Die Varianz nimmt mit der Stichprobengroesse zu",
-                "Alle Werte naehern sich dem Median"
+                "Der Stichprobenmittelwert konvergiert mit wachsendem n gegen den Erwartungswert"
             ],
-            "correct": 0
+            "correct": 3
         },
         {
             "text": "Welche Aussage steckt im Poissonschen Grenzwertsatz?",
             "answers": [
-                "Binomialverteilung naehert sich bei grossem n und kleinem p der Poisson-Verteilung",
                 "Alle Verteilungen werden zu Normalverteilungen",
                 "Grenzwerte sind immer unendlich",
+                "Binomialverteilung naehert sich bei grossem n und kleinem p der Poisson-Verteilung",
                 "Nur fuer stetige Verteilungen gueltig"
             ],
-            "correct": 0
+            "correct": 2
         },
         {
             "text": "Was besagt der zentrale Grenzwertsatz und warum ist das so wichtig?",
             "answers": [
+                "Nur fuer identische Verteilungen anwendbar",
                 "Die Summe/Mittelwert vieler unabhaengiger ZV ist approximativ normalverteilt; Basis fuer viele Tests",
                 "Alle Daten sind normalverteilt",
-                "Der Mittelwert ist immer 0",
-                "Nur fuer identische Verteilungen anwendbar"
+                "Der Mittelwert ist immer 0"
             ],
-            "correct": 0
+            "correct": 1
         },
         {
             "text": "Was bedeutet es, wenn ein Schaetzer erwartungstreu ist?",
             "answers": [
-                "Der Erwartungswert des Schaetzers entspricht dem wahren Parameter",
                 "Der Schaetzer hat keine Varianz",
                 "Der Schaetzer ist immer korrekt",
-                "Der Schaetzer benoetigt viele Daten"
+                "Der Schaetzer benoetigt viele Daten",
+                "Der Erwartungswert des Schaetzers entspricht dem wahren Parameter"
             ],
-            "correct": 0
+            "correct": 3
         },
         {
             "text": "Was ist die Verzerrung eines Schaetzers?",
             "answers": [
-                "Die Differenz zwischen Erwartungswert des Schaetzers und wahrem Parameter",
+                "Die Unsicherheit der Messung",
                 "Die Standardabweichung des Schaetzers",
                 "Der Fehler bei der Berechnung",
-                "Die Unsicherheit der Messung"
+                "Die Differenz zwischen Erwartungswert des Schaetzers und wahrem Parameter"
             ],
-            "correct": 0
+            "correct": 3
         },
         {
             "text": "Welche Masszahlen geben die Qualitaet eines Schaetzers an?",
             "answers": [
-                "Erwartungstreue (Bias), Varianz, Mean Squared Error (MSE)",
                 "Nur der Mittelwert",
+                "Minimum und Maximum",
                 "Median und Modus",
-                "Minimum und Maximum"
+                "Erwartungstreue (Bias), Varianz, Mean Squared Error (MSE)"
             ],
-            "correct": 0
+            "correct": 3
         },
         {
             "text": "Was ist die Idee bei der Maximum-Likelihood-Methode zur Parameterschaetzung?",
             "answers": [
                 "Waehle die Parameter, die die beobachteten Daten am wahrscheinlichsten machen",
-                "Maximiere die Anzahl der Datenpunkte",
+                "Berechne den Durchschnitt aller Parameter",
                 "Finde den groessten Wert in den Daten",
-                "Berechne den Durchschnitt aller Parameter"
+                "Maximiere die Anzahl der Datenpunkte"
             ],
             "correct": 0
         },
@@ -546,9 +546,9 @@ const QUESTIONS = {
             "text": "Wie funktioniert die Kleinste-Quadrate-Schaetzung?",
             "answers": [
                 "Minimiere die Summe der quadrierten Abweichungen zwischen Daten und Modell",
-                "Addiere alle Quadrate",
                 "Finde die kleinste Beobachtung",
-                "Berechne die Wurzel der Varianz"
+                "Berechne die Wurzel der Varianz",
+                "Addiere alle Quadrate"
             ],
             "correct": 0
         }
@@ -557,20 +557,20 @@ const QUESTIONS = {
         {
             "text": "Welche Arten von Fehlern gibt es bei Hypothesentests?",
             "answers": [
+                "Kleine und grosse Fehler",
                 "Fehler 1. Art (H0 faelschlich ablehnen) und Fehler 2. Art (H0 faelschlich beibehalten)",
-                "Nur systematische Fehler",
                 "Messfehler und Rechenfehler",
-                "Kleine und grosse Fehler"
+                "Nur systematische Fehler"
             ],
-            "correct": 0
+            "correct": 1
         },
         {
             "text": "Was ist das Signifikanzniveau Alpha?",
             "answers": [
                 "Die maximale Wahrscheinlichkeit fuer einen Fehler 1. Art",
+                "Der kritische Wert der Teststatistik",
                 "Die Wahrscheinlichkeit, dass H0 wahr ist",
-                "Die Groesse der Stichprobe",
-                "Der kritische Wert der Teststatistik"
+                "Die Groesse der Stichprobe"
             ],
             "correct": 0
         },
@@ -587,216 +587,216 @@ const QUESTIONS = {
         {
             "text": "Was ist Nullhypothese und was Alternativhypothese?",
             "answers": [
-                "H0: zu testende Behauptung (oft Status quo); H1: das Gegenteil",
                 "H0 ist immer falsch, H1 immer wahr",
                 "Beide sind das Gleiche",
-                "H0 kommt von den Daten, H1 von der Theorie"
+                "H0 kommt von den Daten, H1 von der Theorie",
+                "H0: zu testende Behauptung (oft Status quo); H1: das Gegenteil"
             ],
-            "correct": 0
+            "correct": 3
         },
         {
             "text": "Was ist die Ueberschreitungswahrscheinlichkeit (p-Wert)?",
             "answers": [
-                "Die Wahrscheinlichkeit, unter H0 ein mindestens so extremes Ergebnis zu beobachten",
-                "Die Wahrscheinlichkeit, dass H1 wahr ist",
                 "Immer gleich Alpha",
-                "Die Fehlerwahrscheinlichkeit der Messung"
+                "Die Fehlerwahrscheinlichkeit der Messung",
+                "Die Wahrscheinlichkeit, dass H1 wahr ist",
+                "Die Wahrscheinlichkeit, unter H0 ein mindestens so extremes Ergebnis zu beobachten"
             ],
-            "correct": 0
+            "correct": 3
         },
         {
             "text": "Was liefert die Guetefunktion eines Tests?",
             "answers": [
+                "Die optimale Stichprobengroesse",
                 "Die Wahrscheinlichkeit, H0 abzulehnen in Abhaengigkeit vom wahren Parameter",
-                "Die Genauigkeit der Messung",
                 "Die Qualitaet der Daten",
-                "Die optimale Stichprobengroesse"
+                "Die Genauigkeit der Messung"
             ],
-            "correct": 0
+            "correct": 1
         },
         {
             "text": "Was ist der Unterschied zwischen Gauss- und t-Test?",
             "answers": [
-                "Gauss-Test bei bekannter Varianz, t-Test bei geschaetzter Varianz aus der Stichprobe",
                 "t-Test ist fuer kleine Stichproben, Gauss-Test fuer grosse",
                 "Sie sind identisch",
-                "Gauss-Test ist genauer"
+                "Gauss-Test ist genauer",
+                "Gauss-Test bei bekannter Varianz, t-Test bei geschaetzter Varianz aus der Stichprobe"
             ],
-            "correct": 0
+            "correct": 3
         },
         {
             "text": "Welche Voraussetzung muessen die Daten fuer einen t-Test erfuellen?",
             "answers": [
-                "Normalverteilung der Grundgesamtheit (bei kleinen Stichproben kritisch)",
-                "Gleichverteilung",
+                "Keine Ausreisser",
                 "Mindestens 1000 Beobachtungen",
-                "Keine Ausreisser"
+                "Normalverteilung der Grundgesamtheit (bei kleinen Stichproben kritisch)",
+                "Gleichverteilung"
             ],
-            "correct": 0
+            "correct": 2
         }
     ],
     "VL9: Konfidenzintervalle und Tests": [
         {
             "text": "Was ist die Idee hinter der Teststatistik des Chi-Quadrat-Anpassungstests?",
             "answers": [
-                "Vergleich der beobachteten mit den erwarteten Haeufigkeiten unter H0",
                 "Berechnung des Durchschnitts",
-                "Summierung aller Werte",
-                "Bestimmung der Varianz"
+                "Bestimmung der Varianz",
+                "Vergleich der beobachteten mit den erwarteten Haeufigkeiten unter H0",
+                "Summierung aller Werte"
             ],
-            "correct": 0
+            "correct": 2
         },
         {
             "text": "Mit welchem Wert wird der Chi-Quadrat-Wert verglichen?",
             "answers": [
                 "Mit dem Quantil der Chi-Quadrat-Verteilung mit entsprechenden Freiheitsgraden",
                 "Mit dem Mittelwert der Daten",
-                "Immer mit 1",
-                "Mit der Standardabweichung"
+                "Mit der Standardabweichung",
+                "Immer mit 1"
             ],
             "correct": 0
         },
         {
             "text": "Wozu dient ein Konfidenzintervall?",
             "answers": [
+                "Zur Visualisierung der Daten",
                 "Zur Angabe eines Bereichs, der den wahren Parameter mit bestimmter Wahrscheinlichkeit enthaelt",
-                "Zur Berechnung des Mittelwerts",
                 "Zur Bestimmung von Ausreissern",
-                "Zur Visualisierung der Daten"
+                "Zur Berechnung des Mittelwerts"
             ],
-            "correct": 0
+            "correct": 1
         },
         {
             "text": "Wie haengen Konfidenzintervalle und Hypothesentests zusammen?",
             "answers": [
-                "Liegt der hypothetische Wert nicht im Konfidenzintervall, wird H0 abgelehnt",
-                "Sie sind voellig unabhaengig",
                 "Konfidenzintervalle ersetzen Tests",
+                "Sie sind voellig unabhaengig",
+                "Liegt der hypothetische Wert nicht im Konfidenzintervall, wird H0 abgelehnt",
                 "Tests sind genauer als Konfidenzintervalle"
             ],
-            "correct": 0
+            "correct": 2
         },
         {
             "text": "Welche Verteilung liegt Konfidenzintervallen fuer die Varianz normalverteilter Merkmale zugrunde?",
             "answers": [
-                "Die Chi-Quadrat-Verteilung",
                 "Die Normalverteilung",
                 "Die t-Verteilung",
+                "Die Chi-Quadrat-Verteilung",
                 "Die Binomialverteilung"
             ],
-            "correct": 0
+            "correct": 2
         },
         {
             "text": "Warum basieren Konfidenzintervalle fuer die Auftretenswahrscheinlichkeit dichotomer Merkmale auf Quantilen der Standardnormalverteilung?",
             "answers": [
-                "Wegen des zentralen Grenzwertsatzes und der Approximation der Binomialverteilung",
+                "Aus historischen Gruenden",
                 "Weil es einfacher zu berechnen ist",
                 "Weil dichotome Merkmale normalverteilt sind",
-                "Aus historischen Gruenden"
+                "Wegen des zentralen Grenzwertsatzes und der Approximation der Binomialverteilung"
             ],
-            "correct": 0
+            "correct": 3
         },
         {
             "text": "Welcher Wert wird beim Zweistichprobentest betrachtet?",
             "answers": [
                 "Die Differenz der Mittelwerte der beiden Stichproben",
+                "Der groessere Mittelwert",
                 "Die Summe der Mittelwerte",
-                "Das Produkt der Varianzen",
-                "Der groessere Mittelwert"
+                "Das Produkt der Varianzen"
             ],
             "correct": 0
         },
         {
             "text": "Welche Varianten des Zweistichprobentests gibt es und was unterscheidet sie?",
             "answers": [
-                "Verbundene Stichproben (gepaart) und unverbundene Stichproben (unabhaengig)",
                 "Kleine und grosse Stichproben",
+                "Verbundene Stichproben (gepaart) und unverbundene Stichproben (unabhaengig)",
                 "Parametrisch und nicht-parametrisch",
                 "Nur einseitige und zweiseitige Tests"
             ],
-            "correct": 0
+            "correct": 1
         }
     ],
     "VL10: Regression und Chi-Quadrat-Tests": [
         {
             "text": "Wie kann ich Zusammenhaenge zwischen diskreten Merkmalen betrachten?",
             "answers": [
-                "Mit Kontingenztafeln und Chi-Quadrat-Tests",
-                "Nur mit Korrelationskoeffizienten",
                 "Mit linearer Regression",
-                "Gar nicht, nur stetige Merkmale erlauben Zusammenhangsanalyse"
+                "Nur mit Korrelationskoeffizienten",
+                "Gar nicht, nur stetige Merkmale erlauben Zusammenhangsanalyse",
+                "Mit Kontingenztafeln und Chi-Quadrat-Tests"
             ],
-            "correct": 0
+            "correct": 3
         },
         {
             "text": "Was ist der Unterschied zwischen Chi-Quadrat-Unabhaengigkeits- und Chi-Quadrat-Anpassungstest?",
             "answers": [
-                "Unabhaengigkeitstest prueft Zusammenhang zweier Merkmale, Anpassungstest prueft Verteilungsannahme",
                 "Sie sind identisch",
-                "Anpassungstest ist fuer kleine Stichproben",
-                "Unabhaengigkeitstest benoetigt mehr Daten"
+                "Unabhaengigkeitstest benoetigt mehr Daten",
+                "Unabhaengigkeitstest prueft Zusammenhang zweier Merkmale, Anpassungstest prueft Verteilungsannahme",
+                "Anpassungstest ist fuer kleine Stichproben"
             ],
-            "correct": 0
+            "correct": 2
         },
         {
             "text": "Die Methode der kleinsten Quadrate liefert eine eindeutige Regressionsgerade - woher kommen also die Unsicherheiten?",
             "answers": [
-                "Aus der Streuung der Daten um die Regressionsgerade (Residuen)",
-                "Aus Rechenfehlern",
                 "Aus zu kleinen Stichproben",
-                "Es gibt keine Unsicherheiten"
+                "Es gibt keine Unsicherheiten",
+                "Aus der Streuung der Daten um die Regressionsgerade (Residuen)",
+                "Aus Rechenfehlern"
             ],
-            "correct": 0
+            "correct": 2
         },
         {
             "text": "Was beschreibt der mittels einer KQ-Gerade vorhergesagte Wert?",
             "answers": [
-                "Den bedingten Erwartungswert von Y gegeben X",
-                "Den maximalen Wert von Y",
                 "Die Varianz von Y",
-                "Den Median von Y"
+                "Den bedingten Erwartungswert von Y gegeben X",
+                "Den Median von Y",
+                "Den maximalen Wert von Y"
             ],
-            "correct": 0
+            "correct": 1
         },
         {
             "text": "Warum kann fuer die Regressionskoeffizienten eine Art t-Test angewendet werden?",
             "answers": [
+                "t-Tests funktionieren immer",
                 "Die Koeffizientenschaetzer sind unter Normalverteilungsannahme t-verteilt",
                 "Weil die Stichprobe klein ist",
-                "Aus traditionellen Gruenden",
-                "t-Tests funktionieren immer"
+                "Aus traditionellen Gruenden"
             ],
-            "correct": 0
+            "correct": 1
         },
         {
             "text": "Warum ist der Test H0: Beta = 0 versus H1: Beta ungleich 0 besonders interessant?",
             "answers": [
-                "Er prueft, ob ueberhaupt ein linearer Zusammenhang besteht",
-                "Er ist am einfachsten zu berechnen",
                 "Er wird immer signifikant",
-                "Er benoetigt keine Voraussetzungen"
+                "Er benoetigt keine Voraussetzungen",
+                "Er ist am einfachsten zu berechnen",
+                "Er prueft, ob ueberhaupt ein linearer Zusammenhang besteht"
             ],
-            "correct": 0
+            "correct": 3
         },
         {
             "text": "Welche Prognosen sind basierend auf einer linearen Regression moeglich?",
             "answers": [
-                "Punktschaetzung und Prognoseintervalle fuer zukuenftige Werte",
                 "Nur der Mittelwert",
+                "Nur fuer vergangene Werte",
                 "Exakte zukuenftige Werte",
-                "Nur fuer vergangene Werte"
+                "Punktschaetzung und Prognoseintervalle fuer zukuenftige Werte"
             ],
-            "correct": 0
+            "correct": 3
         },
         {
             "text": "Wie haengen Konfidenzintervalle fuer den Erwartungswert und Prognoseintervalle fuer die Werte zusammen?",
             "answers": [
-                "Prognoseintervalle sind breiter, da zusaetzlich die individuelle Streuung beruecksichtigt wird",
                 "Sie sind identisch",
                 "Konfidenzintervalle sind breiter",
-                "Sie haben nichts miteinander zu tun"
+                "Sie haben nichts miteinander zu tun",
+                "Prognoseintervalle sind breiter, da zusaetzlich die individuelle Streuung beruecksichtigt wird"
             ],
-            "correct": 0
+            "correct": 3
         }
     ]
 };
