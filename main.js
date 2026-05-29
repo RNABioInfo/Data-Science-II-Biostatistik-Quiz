@@ -62,6 +62,33 @@ function showQuestion() {
         answersDiv.appendChild(button);
     });
 
+    returnDiv.innerHTML = "";
+
+    if (currentQuestionIndex > 0) {
+        const btnback = document.createElement("button");
+        btnback.textContent = "Vorherige Frage";
+        btnback.classList.add("back-btn");
+        btnback.onclick = () => {
+            currentQuestionIndex--;
+            showQuestion();
+            btnback.style.display = "none";
+        }
+        returnDiv.appendChild(btnback);
+    }
+
+    const btnhome = document.createElement("button");
+    btnhome.textContent = "Zurück zur Übersicht";
+    btnhome.classList.add("return-btn");
+    btnhome.onclick = () => {
+        quizArea.style.display = "none";
+        showTopics();
+        btnhome.style.display = "none";
+        returnDiv.style.display = "none";
+    };
+    returnDiv.appendChild(btnhome);
+
+    returnDiv.style.display = "block";
+
     if (window.MathJax) {
         MathJax.typesetPromise();
     }
@@ -81,14 +108,14 @@ function checkAnswer(selectedIndex, clickedButton) {
         allButtons[q.correct].classList.add("correct");
     }
 
-    setTimeout(() => {
+    setTimeout(() => { // here timer for when the next question comes, now after 1.5s. Instead implement a "next question" button?
         currentQuestionIndex++;
         if (currentQuestionIndex < questions[currentTopic].length) {
             showQuestion();
         } else {
             endQuiz();
         }
-    }, 1000);
+    }, 1500);
 }
 
 function endQuiz() {
@@ -97,14 +124,15 @@ function endQuiz() {
     answersDiv.innerHTML = "";
     
     returnDiv.innerHTML = "";
-    const button = document.createElement("button");
-    button.textContent = "Zurück zur Übersicht";
-    button.classList.add("return-btn");
-    button.onclick = () => {
+    const btnhome = document.createElement("button");
+    btnhome.textContent = "Zurück zur Übersicht";
+    btnhome.classList.add("return-btn");
+    btnhome.onclick = () => {
         quizArea.style.display = "none";
         showTopics();
+        btnhome.style.display = "none";
     };
-    returnDiv.appendChild(button);
+    returnDiv.appendChild(btnhome);
     returnDiv.style.display = "block";
 }
 
