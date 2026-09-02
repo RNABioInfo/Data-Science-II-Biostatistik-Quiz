@@ -8,7 +8,8 @@
                 "Statistik ist nur fuer Mathematiker relevant",
                 "Um biologische Daten wissenschaftlich auszuwerten und Zusammenhaenge zu erkennen"
             ],
-            "correct": 3
+            "correct": 3,
+            "difficulty": "easy"
         },
         {
             "text": "Was sind Merkmal und Merkmalsauspraegung?",
@@ -18,7 +19,8 @@
                 "Merkmal ist eine beobachtbare Eigenschaft, Merkmalsauspraegung ist der konkrete Wert",
                 "Beide Begriffe bezeichnen das Gleiche"
             ],
-            "correct": 2
+            "correct": 2,
+            "difficulty": "easy"
         },
         {
             "text": "Welche Skalenniveaus gibt es?",
@@ -28,7 +30,8 @@
                 "Linear, Exponentiell, Logarithmisch",
                 "Nominal, Ordinal, Intervall, Verhaeltnis"
             ],
-            "correct": 3
+            "correct": 3,
+            "difficulty": "easy"
         },
         {
             "text": "Welche Arten von Messunsicherheiten/Fehlern gibt es?",
@@ -38,17 +41,19 @@
                 "Systematische und zufaellige Fehler",
                 "Nur menschliche Fehler"
             ],
-            "correct": 2
+            "correct": 2,
+            "difficulty": "easy"
         },
         {
-            "text": "Warum ist die Summe der Abweichungen vom Mittelwert kein sinnvolles Mass fuer die Messunsicherheit?",
+            "text": "Warum ist die Summe der Abweichungen vom Mittelwert kein sinnvolles Mass für die Messunsicherheit?",
             "answers": [
                 "Weil die Berechnung zu kompliziert ist",
                 "Weil der Mittelwert nicht genau genug ist",
                 "Weil nur grosse Abweichungen wichtig sind",
                 "Weil sich positive und negative Abweichungen aufheben und die Summe immer Null ergibt"
             ],
-            "correct": 3
+            "correct": 3,
+            "difficulty": "hard"
         },
         {
             "text": "Was besagt die 3-Sigma-Regel?",
@@ -58,7 +63,8 @@
                 "Man muss mindestens 3 Messungen durchfuehren",
                 "Etwa 99,7% der Werte liegen innerhalb von 3 Standardabweichungen vom Mittelwert"
             ],
-            "correct": 3
+            "correct": 3,
+            "difficulty": "hard"
         },
         {
             "text": "Was ist der Standardfehler?",
@@ -68,7 +74,8 @@
                 "Die Standardabweichung des Mittelwerts einer Stichprobe",
                 "Ein Fehler, der immer auftritt"
             ],
-            "correct": 2
+            "correct": 2,
+            "difficulty": "hard"
         },
         {
             "text": "Was ist die Idee hinter der Gaussschen Methode?",
@@ -78,7 +85,8 @@
                 "Fehlerfortpflanzung durch partielle Ableitungen zu berechnen",
                 "Nur den groessten Fehler zu beruecksichtigen"
             ],
-            "correct": 2
+            "correct": 2,
+            "difficulty": "hard"
         }
     ],
     "VL2: Deskriptive Statistik": [
@@ -90,7 +98,8 @@
                 "Ein Kreisdiagramm zur Darstellung von Anteilen",
                 "Ein Streudiagramm zur Korrelationsanalyse"
             ],
-            "correct": 0
+            "correct": 0,
+            "difficulty": "easy"
         },
         {
             "text": "Was beschreibt die empirische Verteilungsfunktion?",
@@ -100,7 +109,8 @@
                 "Den Anteil der Beobachtungen, die kleiner oder gleich einem bestimmten Wert sind",
                 "Die durchschnittliche Haeufigkeit aller Werte"
             ],
-            "correct": 2
+            "correct": 2,
+            "difficulty": "easy"
         },
         {
             "text": "Welche Lageparameter gibt es?",
@@ -110,7 +120,8 @@
                 "Nur den arithmetischen Mittelwert",
                 "Mittelwert, Median, Modus"
             ],
-            "correct": 3
+            "correct": 3,
+            "difficulty": "easy"
         },
         {
             "text": "Was ist ein Boxplot?",
@@ -120,7 +131,8 @@
                 "Ein dreidimensionales Diagramm",
                 "Eine grafische Darstellung von Median, Quartilen und Ausreissern"
             ],
-            "correct": 3
+            "correct": 3,
+            "difficulty": "easy"
         },
         {
             "text": "Was ist der Unterschied zwischen empirischer Varianz und Stichprobenvarianz?",
@@ -130,7 +142,8 @@
                 "Stichprobenvarianz teilt durch n-1, empirische Varianz durch n",
                 "Empirische Varianz ist immer groesser"
             ],
-            "correct": 2
+            "correct": 2,
+            "difficulty": "hard"
         },
         {
             "text": "Was ist eine Dichte?",
@@ -140,7 +153,8 @@
                 "Die Anzahl der Messwerte pro Einheit",
                 "Die Ableitung der Verteilungsfunktion bei stetigen Zufallsvariablen"
             ],
-            "correct": 3
+            "correct": 3,
+            "difficulty": "hard"
         },
         {
             "text": "Wie haengt die Verteilungsfunktion mit der Dichte zusammen?",
@@ -150,7 +164,8 @@
                 "Sie sind identisch",
                 "Beide sind unabhaengig voneinander"
             ],
-            "correct": 0
+            "correct": 0,
+            "difficulty": "hard"
         },
         {
             "text": "Was ist die Standardnormalverteilung und warum ist sie so bedeutend?",
@@ -160,7 +175,8 @@
                 "Die haeufigste Verteilung in der Natur",
                 "Eine gleichmaessige Verteilung aller Werte"
             ],
-            "correct": 1
+            "correct": 1,
+            "difficulty": "hard"
         }
     ],
     "VL3: Zusammenhangsanalyse": [
@@ -172,7 +188,8 @@
                 "Eine Liste aller moeglichen Kombinationen",
                 "Eine Kreuztabelle zur Darstellung der gemeinsamen Haeufigkeitsverteilung zweier Merkmale"
             ],
-            "correct": 3
+            "correct": 3,
+            "difficulty": "easy"
         },
         {
             "text": "Was ist die Idee hinter der Zusammenhangsanalyse in Kontingenztafeln?",
@@ -182,7 +199,8 @@
                 "Zu pruefen, ob die beobachteten Haeufigkeiten von den erwarteten bei Unabhaengigkeit abweichen",
                 "Den Mittelwert der Tabelle zu berechnen"
             ],
-            "correct": 2
+            "correct": 2,
+            "difficulty": "easy"
         },
         {
             "text": "Wie wird der Chi-Quadrat-Koeffizient interpretiert?",
@@ -192,7 +210,8 @@
                 "Ein Wert von 0 bedeutet perfekte Abhaengigkeit",
                 "Je groesser der Wert, desto staerker die Abweichung von der Unabhaengigkeit"
             ],
-            "correct": 3
+            "correct": 3,
+            "difficulty": "easy"
         },
         {
             "text": "Welche beiden Korrelationskoeffizienten kennen Sie und wie unterscheiden sie sich?",
@@ -202,7 +221,8 @@
                 "Positive und negative Korrelation",
                 "Einfache und multiple Korrelation"
             ],
-            "correct": 0
+            "correct": 0,
+            "difficulty": "easy"
         },
         {
             "text": "Wie funktioniert die Methode der kleinsten Quadrate?",
@@ -212,7 +232,8 @@
                 "Mittelung aller quadrierten Differenzen",
                 "Addition aller Quadrate der Messwerte"
             ],
-            "correct": 0
+            "correct": 0,
+            "difficulty": "hard"
         },
         {
             "text": "Wie kann man die Qualitaet einer linearen Regression beurteilen?",
@@ -222,7 +243,8 @@
                 "Durch die Steigung der Geraden",
                 "Durch Zaehlen der Datenpunkte"
             ],
-            "correct": 0
+            "correct": 0,
+            "difficulty": "hard"
         },
         {
             "text": "Besteht ein Zusammenhang zwischen Bestimmtheitsmass und Korrelationskoeffizient?",
@@ -232,7 +254,8 @@
                 "Sie sind identisch",
                 "Ja, R-Quadrat ist das Quadrat des Korrelationskoeffizienten nach Pearson"
             ],
-            "correct": 3
+            "correct": 3,
+            "difficulty": "hard"
         }
     ],
     "VL4: Wahrscheinlichkeitstheorie": [
@@ -241,10 +264,11 @@
             "answers": [
                 "Bedingungen fuer Normalverteilungen",
                 "Definitionen von Zufallsvariablen",
-                "Grundlegende Eigenschaften von Wahrscheinlichkeiten: Nicht-Negativitaet, Normierung, Additivitaet",
+                "Grundlegende Eigenschaften von Wahrscheinlichkeiten: Nicht-Negativität, Normierung, Additivität",
                 "Regeln zur Berechnung von Mittelwerten"
             ],
-            "correct": 2
+            "correct": 2,
+            "difficulty": "easy"
         },
         {
             "text": "Was besagt das empirische Gesetz der grossen Zahlen?",
@@ -254,7 +278,8 @@
                 "Grosse Zahlen sind wahrscheinlicher als kleine",
                 "Die Summe aller Wahrscheinlichkeiten ist unendlich"
             ],
-            "correct": 1
+            "correct": 1,
+            "difficulty": "easy"
         },
         {
             "text": "Was ist die Laplace-Wahrscheinlichkeit?",
@@ -264,7 +289,8 @@
                 "Bei gleich wahrscheinlichen Ergebnissen: P = guenstige Faelle / moegliche Faelle",
                 "Eine spezielle Normalverteilung"
             ],
-            "correct": 2
+            "correct": 2,
+            "difficulty": "easy"
         },
         {
             "text": "Was ist der Binomialkoeffizient?",
@@ -274,7 +300,8 @@
                 "Das Produkt zweier Zahlen",
                 "Die Anzahl der Moeglichkeiten, k Elemente aus n auszuwaehlen: n ueber k"
             ],
-            "correct": 3
+            "correct": 3,
+            "difficulty": "easy"
         },
         {
             "text": "Was ist eine bedingte Wahrscheinlichkeit?",
@@ -284,17 +311,19 @@
                 "Die Wahrscheinlichkeit von A unter der Bedingung, dass B eingetreten ist: P(A|B)",
                 "Die Summe zweier Wahrscheinlichkeiten"
             ],
-            "correct": 2
+            "correct": 2,
+            "difficulty": "hard"
         },
         {
-            "text": "Wann sind zwei Ereignisse stochastisch unabhaengig?",
+            "text": "Wann sind zwei Ereignisse A und B stochastisch unabhaengig?",
             "answers": [
-                "Wenn ihre Summe 1 ergibt",
+                "Wenn P(A) + P(B) = 1 ergibt",
                 "Wenn sie niemals gleichzeitig auftreten",
-                "Wenn P(A und B) = P(A) mal P(B)",
-                "Wenn sie identisch sind"
+                "Wenn P(A ∩ B) = P(A) ⋅ P(B)",
+                "Wenn P(A) = P(B)"
             ],
-            "correct": 2
+            "correct": 2,
+            "difficulty": "hard"
         },
         {
             "text": "Was besagt der Satz der totalen Wahrscheinlichkeit?",
@@ -304,7 +333,8 @@
                 "Alle Ereignisse haben die gleiche Wahrscheinlichkeit",
                 "Wahrscheinlichkeiten koennen addiert werden"
             ],
-            "correct": 0
+            "correct": 0,
+            "difficulty": "hard"
         },
         {
             "text": "Was besagt der Satz von Bayes?",
@@ -314,7 +344,8 @@
                 "Nur fuer unabhaengige Ereignisse anwendbar",
                 "Die Wahrscheinlichkeit ist immer symmetrisch"
             ],
-            "correct": 1
+            "correct": 1,
+            "difficulty": "hard"
         }
     ],
     "VL5: Zufallsvariablen": [
@@ -326,7 +357,8 @@
                 "Ein Messwert mit grosser Unsicherheit",
                 "Eine Variable, die zufaellig ausgewaehlt wird"
             ],
-            "correct": 0
+            "correct": 0,
+            "difficulty": "easy"
         },
         {
             "text": "Wie haengen Zaehldichte, Wahrscheinlichkeitsfunktion und Verteilungsfunktion zusammen?",
@@ -336,7 +368,8 @@
                 "Sie haengen nicht zusammen",
                 "Die Zaehldichte ist die Ableitung der Verteilungsfunktion"
             ],
-            "correct": 0
+            "correct": 0,
+            "difficulty": "easy"
         },
         {
             "text": "Was ist eine Bernoulli-Variable?",
@@ -346,7 +379,8 @@
                 "Eine diskrete Zufallsvariable mit nur zwei moeglichen Werten (0 und 1)",
                 "Eine Variable mit Normalverteilung"
             ],
-            "correct": 2
+            "correct": 2,
+            "difficulty": "easy"
         },
         {
             "text": "Was ist der Erwartungswert einer Zufallsvariablen?",
@@ -356,7 +390,8 @@
                 "Der gewichtete Durchschnitt aller moeglichen Werte mit ihren Wahrscheinlichkeiten",
                 "Die Summe aller Werte"
             ],
-            "correct": 2
+            "correct": 2,
+            "difficulty": "easy"
         },
         {
             "text": "Wie berechnet sich die Varianz einer Zufallsvariablen?",
@@ -366,7 +401,8 @@
                 "Als Differenz zwischen Maximum und Minimum",
                 "Var(X) = E[(X - E[X])^2] = E[X^2] - (E[X])^2"
             ],
-            "correct": 3
+            "correct": 3,
+            "difficulty": "hard"
         },
         {
             "text": "Was besagt der Verschiebungssatz?",
@@ -376,7 +412,8 @@
                 "Die Verteilung kann horizontal verschoben werden",
                 "Varianzen koennen addiert werden"
             ],
-            "correct": 1
+            "correct": 1,
+            "difficulty": "hard"
         },
         {
             "text": "Was kann man mit der Binomialverteilung modellieren?",
@@ -386,7 +423,8 @@
                 "Beliebige stetige Prozesse",
                 "Zeitreihen mit Trend"
             ],
-            "correct": 0
+            "correct": 0,
+            "difficulty": "hard"
         },
         {
             "text": "Was ist das Besondere an der Poisson-Verteilung?",
@@ -396,7 +434,8 @@
                 "Sie ist nur fuer grosse Stichproben geeignet",
                 "Sie hat keine Parameter"
             ],
-            "correct": 1
+            "correct": 1,
+            "difficulty": "hard"
         }
     ],
     "VL6: Stetige Verteilungen": [
@@ -408,7 +447,8 @@
                 "Die Wahrscheinlichkeiten sind immer 1",
                 "P(X = x) = 0 fuer jeden einzelnen Wert; Wahrscheinlichkeiten nur fuer Intervalle"
             ],
-            "correct": 3
+            "correct": 3,
+            "difficulty": "easy"
         },
         {
             "text": "Wie sieht die Dichtefunktion einer Gleichverteilung aus?",
@@ -418,17 +458,19 @@
                 "Eine konstante Funktion im Intervall [a,b], ausserhalb 0",
                 "Eine exponentielle Funktion"
             ],
-            "correct": 2
+            "correct": 2,
+            "difficulty": "easy"
         },
         {
             "text": "Wie berechnet man den Erwartungswert einer stetigen Zufallsvariablen?",
             "answers": [
                 "Als Median der Dichtefunktion",
                 "Als Summe aller Werte",
-                "E[X] = Integral von x mal f(x) dx ueber den gesamten Wertebereich",
+                "E[X] = Integral von x mal f(x) dx ueber den gesamten Wertebereich, ∫x⋅f(x) dx",
                 "Durch Ableitung der Verteilungsfunktion"
             ],
-            "correct": 2
+            "correct": 2,
+            "difficulty": "easy"
         },
         {
             "text": "Warum ist die Standardnormalverteilung so bedeutsam?",
@@ -438,7 +480,8 @@
                 "Alle Daten folgen dieser Verteilung",
                 "Jede Normalverteilung kann durch Standardisierung darauf zurueckgefuehrt werden"
             ],
-            "correct": 3
+            "correct": 3,
+            "difficulty": "easy"
         },
         {
             "text": "Wann sind Zufallsvariablen unabhaengig?",
@@ -448,7 +491,8 @@
                 "Wenn sie verschiedene Erwartungswerte haben",
                 "Wenn sie nicht korreliert sind"
             ],
-            "correct": 1
+            "correct": 1,
+            "difficulty": "hard"
         },
         {
             "text": "Was sind Kovarianz und Korrelationskoeffizient?",
@@ -458,17 +502,19 @@
                 "Nur fuer kategoriale Daten geeignet",
                 "Masse fuer die Variabilitaet einzelner Variablen"
             ],
-            "correct": 1
+            "correct": 1,
+            "difficulty": "hard"
         },
         {
             "text": "Wie kann man die Varianz der Summe zweier Zufallsvariablen berechnen?",
             "answers": [
                 "Die Varianzen multiplizieren",
-                "Var(X + Y) = Var(X) + Var(Y) + 2 mal Cov(X,Y)",
+                "Var(X + Y) = Var(X) + Var(Y) + 2 ⋅ Cov(X,Y)",
                 "Den Erwartungswert quadrieren",
                 "Einfach die Varianzen addieren"
             ],
-            "correct": 1
+            "correct": 1,
+            "difficulty": "hard"
         }
     ],
     "VL7: Schaetztheorie": [
@@ -480,7 +526,8 @@
                 "Die Varianz nimmt mit der Stichprobengroesse zu",
                 "Der Stichprobenmittelwert konvergiert mit wachsendem n gegen den Erwartungswert"
             ],
-            "correct": 3
+            "correct": 3,
+            "difficulty": "easy"
         },
         {
             "text": "Welche Aussage steckt im Poissonschen Grenzwertsatz?",
@@ -490,7 +537,8 @@
                 "Binomialverteilung naehert sich bei grossem n und kleinem p der Poisson-Verteilung",
                 "Nur fuer stetige Verteilungen gueltig"
             ],
-            "correct": 2
+            "correct": 2,
+            "difficulty": "easy"
         },
         {
             "text": "Was besagt der zentrale Grenzwertsatz und warum ist das so wichtig?",
@@ -500,7 +548,8 @@
                 "Alle Daten sind normalverteilt",
                 "Der Mittelwert ist immer 0"
             ],
-            "correct": 1
+            "correct": 1,
+            "difficulty": "easy"
         },
         {
             "text": "Was bedeutet es, wenn ein Schaetzer erwartungstreu ist?",
@@ -510,7 +559,8 @@
                 "Der Schaetzer benoetigt viele Daten",
                 "Der Erwartungswert des Schaetzers entspricht dem wahren Parameter"
             ],
-            "correct": 3
+            "correct": 3,
+            "difficulty": "easy"
         },
         {
             "text": "Was ist die Verzerrung eines Schaetzers?",
@@ -520,7 +570,8 @@
                 "Der Fehler bei der Berechnung",
                 "Die Differenz zwischen Erwartungswert des Schaetzers und wahrem Parameter"
             ],
-            "correct": 3
+            "correct": 3,
+            "difficulty": "hard"
         },
         {
             "text": "Welche Masszahlen geben die Qualitaet eines Schaetzers an?",
@@ -530,7 +581,8 @@
                 "Median und Modus",
                 "Erwartungstreue (Bias), Varianz, Mean Squared Error (MSE)"
             ],
-            "correct": 3
+            "correct": 3,
+            "difficulty": "hard"
         },
         {
             "text": "Was ist die Idee bei der Maximum-Likelihood-Methode zur Parameterschaetzung?",
@@ -540,7 +592,8 @@
                 "Finde den groessten Wert in den Daten",
                 "Maximiere die Anzahl der Datenpunkte"
             ],
-            "correct": 0
+            "correct": 0,
+            "difficulty": "hard"
         },
         {
             "text": "Wie funktioniert die Kleinste-Quadrate-Schaetzung?",
@@ -550,7 +603,8 @@
                 "Berechne die Wurzel der Varianz",
                 "Addiere alle Quadrate"
             ],
-            "correct": 0
+            "correct": 0,
+            "difficulty": "hard"
         }
     ],
     "VL8: Hypothesentests": [
@@ -562,27 +616,30 @@
                 "Messfehler und Rechenfehler",
                 "Nur systematische Fehler"
             ],
-            "correct": 1
+            "correct": 1,
+            "difficulty": "easy"
         },
         {
-            "text": "Was ist das Signifikanzniveau Alpha?",
+            "text": "Was ist das Signifikanzniveau α?",
             "answers": [
                 "Die maximale Wahrscheinlichkeit fuer einen Fehler 1. Art",
                 "Der kritische Wert der Teststatistik",
                 "Die Wahrscheinlichkeit, dass H0 wahr ist",
                 "Die Groesse der Stichprobe"
             ],
-            "correct": 0
+            "correct": 0,
+            "difficulty": "easy"
         },
         {
             "text": "Worin unterscheiden sich der einseitige und zweiseitige Gauss-Test?",
             "answers": [
-                "Einseitig: H1: Mu > Mu0 oder Mu < Mu0; Zweiseitig: H1: Mu ungleich Mu0",
+                "Einseitig: H1: µ > µ0 oder µ < µ0; Zweiseitig: H1: µ ≠ µ0",
                 "Die Anzahl der Stichproben",
                 "Die verwendete Verteilung",
                 "Die Berechnung des Mittelwerts"
             ],
-            "correct": 0
+            "correct": 0,
+            "difficulty": "easy"
         },
         {
             "text": "Was ist Nullhypothese und was Alternativhypothese?",
@@ -592,17 +649,19 @@
                 "H0 kommt von den Daten, H1 von der Theorie",
                 "H0: zu testende Behauptung (oft Status quo); H1: das Gegenteil"
             ],
-            "correct": 3
+            "correct": 3,
+            "difficulty": "easy"
         },
         {
             "text": "Was ist die Ueberschreitungswahrscheinlichkeit (p-Wert)?",
             "answers": [
-                "Immer gleich Alpha",
+                "Immer gleich α",
                 "Die Fehlerwahrscheinlichkeit der Messung",
                 "Die Wahrscheinlichkeit, dass H1 wahr ist",
                 "Die Wahrscheinlichkeit, unter H0 ein mindestens so extremes Ergebnis zu beobachten"
             ],
-            "correct": 3
+            "correct": 3,
+            "difficulty": "hard"
         },
         {
             "text": "Was liefert die Guetefunktion eines Tests?",
@@ -612,7 +671,8 @@
                 "Die Qualitaet der Daten",
                 "Die Genauigkeit der Messung"
             ],
-            "correct": 1
+            "correct": 1,
+            "difficulty": "hard"
         },
         {
             "text": "Was ist der Unterschied zwischen Gauss- und t-Test?",
@@ -622,7 +682,8 @@
                 "Gauss-Test ist genauer",
                 "Gauss-Test bei bekannter Varianz, t-Test bei geschaetzter Varianz aus der Stichprobe"
             ],
-            "correct": 3
+            "correct": 3,
+            "difficulty": "hard"
         },
         {
             "text": "Welche Voraussetzung muessen die Daten fuer einen t-Test erfuellen?",
@@ -632,7 +693,8 @@
                 "Normalverteilung der Grundgesamtheit (bei kleinen Stichproben kritisch)",
                 "Gleichverteilung"
             ],
-            "correct": 2
+            "correct": 2,
+            "difficulty": "hard"
         }
     ],
     "VL9: Konfidenzintervalle und Tests": [
@@ -644,7 +706,8 @@
                 "Vergleich der beobachteten mit den erwarteten Haeufigkeiten unter H0",
                 "Summierung aller Werte"
             ],
-            "correct": 2
+            "correct": 2,
+            "difficulty": "easy"
         },
         {
             "text": "Mit welchem Wert wird der Chi-Quadrat-Wert verglichen?",
@@ -654,7 +717,8 @@
                 "Mit der Standardabweichung",
                 "Immer mit 1"
             ],
-            "correct": 0
+            "correct": 0,
+            "difficulty": "easy"
         },
         {
             "text": "Wozu dient ein Konfidenzintervall?",
@@ -664,7 +728,8 @@
                 "Zur Bestimmung von Ausreissern",
                 "Zur Berechnung des Mittelwerts"
             ],
-            "correct": 1
+            "correct": 1,
+            "difficulty": "easy"
         },
         {
             "text": "Wie haengen Konfidenzintervalle und Hypothesentests zusammen?",
@@ -674,7 +739,8 @@
                 "Liegt der hypothetische Wert nicht im Konfidenzintervall, wird H0 abgelehnt",
                 "Tests sind genauer als Konfidenzintervalle"
             ],
-            "correct": 2
+            "correct": 2,
+            "difficulty": "easy"
         },
         {
             "text": "Welche Verteilung liegt Konfidenzintervallen fuer die Varianz normalverteilter Merkmale zugrunde?",
@@ -684,7 +750,8 @@
                 "Die Chi-Quadrat-Verteilung",
                 "Die Binomialverteilung"
             ],
-            "correct": 2
+            "correct": 2,
+            "difficulty": "hard"
         },
         {
             "text": "Warum basieren Konfidenzintervalle fuer die Auftretenswahrscheinlichkeit dichotomer Merkmale auf Quantilen der Standardnormalverteilung?",
@@ -694,7 +761,8 @@
                 "Weil dichotome Merkmale normalverteilt sind",
                 "Wegen des zentralen Grenzwertsatzes und der Approximation der Binomialverteilung"
             ],
-            "correct": 3
+            "correct": 3,
+            "difficulty": "hard"
         },
         {
             "text": "Welcher Wert wird beim Zweistichprobentest betrachtet?",
@@ -704,7 +772,8 @@
                 "Die Summe der Mittelwerte",
                 "Das Produkt der Varianzen"
             ],
-            "correct": 0
+            "correct": 0,
+            "difficulty": "hard"
         },
         {
             "text": "Welche Varianten des Zweistichprobentests gibt es und was unterscheidet sie?",
@@ -714,7 +783,8 @@
                 "Parametrisch und nicht-parametrisch",
                 "Nur einseitige und zweiseitige Tests"
             ],
-            "correct": 1
+            "correct": 1,
+            "difficulty": "hard"
         }
     ],
     "VL10: Regression und Chi-Quadrat-Tests": [
@@ -726,7 +796,8 @@
                 "Gar nicht, nur stetige Merkmale erlauben Zusammenhangsanalyse",
                 "Mit Kontingenztafeln und Chi-Quadrat-Tests"
             ],
-            "correct": 3
+            "correct": 3,
+            "difficulty": "easy"
         },
         {
             "text": "Was ist der Unterschied zwischen Chi-Quadrat-Unabhaengigkeits- und Chi-Quadrat-Anpassungstest?",
@@ -736,7 +807,8 @@
                 "Unabhaengigkeitstest prueft Zusammenhang zweier Merkmale, Anpassungstest prueft Verteilungsannahme",
                 "Anpassungstest ist fuer kleine Stichproben"
             ],
-            "correct": 2
+            "correct": 2,
+            "difficulty": "easy"
         },
         {
             "text": "Die Methode der kleinsten Quadrate liefert eine eindeutige Regressionsgerade - woher kommen also die Unsicherheiten?",
@@ -746,7 +818,8 @@
                 "Aus der Streuung der Daten um die Regressionsgerade (Residuen)",
                 "Aus Rechenfehlern"
             ],
-            "correct": 2
+            "correct": 2,
+            "difficulty": "easy"
         },
         {
             "text": "Was beschreibt der mittels einer KQ-Gerade vorhergesagte Wert?",
@@ -756,7 +829,8 @@
                 "Den Median von Y",
                 "Den maximalen Wert von Y"
             ],
-            "correct": 1
+            "correct": 1,
+            "difficulty": "easy"
         },
         {
             "text": "Warum kann fuer die Regressionskoeffizienten eine Art t-Test angewendet werden?",
@@ -766,17 +840,19 @@
                 "Weil die Stichprobe klein ist",
                 "Aus traditionellen Gruenden"
             ],
-            "correct": 1
+            "correct": 1,
+            "difficulty": "hard"
         },
         {
-            "text": "Warum ist der Test H0: Beta = 0 versus H1: Beta ungleich 0 besonders interessant?",
+            "text": "Warum ist der Test H0: β = 0 versus H1: β ≠ 0 besonders interessant?",
             "answers": [
                 "Er wird immer signifikant",
                 "Er benoetigt keine Voraussetzungen",
                 "Er ist am einfachsten zu berechnen",
                 "Er prueft, ob ueberhaupt ein linearer Zusammenhang besteht"
             ],
-            "correct": 3
+            "correct": 3,
+            "difficulty": "hard"
         },
         {
             "text": "Welche Prognosen sind basierend auf einer linearen Regression moeglich?",
@@ -786,7 +862,8 @@
                 "Exakte zukuenftige Werte",
                 "Punktschaetzung und Prognoseintervalle fuer zukuenftige Werte"
             ],
-            "correct": 3
+            "correct": 3,
+            "difficulty": "hard"
         },
         {
             "text": "Wie haengen Konfidenzintervalle fuer den Erwartungswert und Prognoseintervalle fuer die Werte zusammen?",
@@ -796,7 +873,8 @@
                 "Sie haben nichts miteinander zu tun",
                 "Prognoseintervalle sind breiter, da zusaetzlich die individuelle Streuung beruecksichtigt wird"
             ],
-            "correct": 3
+            "correct": 3,
+            "difficulty": "hard"
         }
     ]
 }
