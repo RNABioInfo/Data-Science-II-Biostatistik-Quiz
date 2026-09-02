@@ -2,6 +2,13 @@ let questions = {};
 let currentTopic = null;
 let currentQuestionIndex = 0;
 let score = 0;
+let currentQuestions = [];
+
+const difficulties = [
+    { key: "easy", label: "Einfach" },
+    { key: "hard", label: "Schwer" },
+    { key: "random", label: "Zufällig" }
+];
 
 const topicDiv = document.getElementById("topic-selection");
 const quizArea = document.getElementById("quiz-area");
@@ -9,6 +16,7 @@ const questionText = document.getElementById("question-text");
 const answersDiv = document.getElementById("answers");
 const returnDiv = document.getElementById("return-btn");
 const progressDiv = document.getElementById("progress");
+const diffSelection = document.getElementById("diff-selection")
 
 async function loadQuestions() {
     try {
@@ -27,27 +35,78 @@ async function loadQuestions() {
 function showTopics() {
     topicDiv.innerHTML = "";
     topicDiv.style.display = "grid";
+    diffSelection.style.display = "none";
     for (let topic in questions) {
         const button = document.createElement("button");
         button.textContent = topic;
         button.classList.add("topic-btn");
-        button.onclick = () => startQuiz(topic);
+        button.onclick = () => showDifficulty(topic);
         topicDiv.appendChild(button);
     }
 }
 
-function startQuiz(topic) {
+function showDifficulty(topic) {
+    topicDiv.style.display = "none";
+    quizArea.style.display = "none";
+    diffSelection.style.display = "grid";
+    diffSelection.innerHTML = "";
+
+    difficulties.forEach((difficulty) => {
+        const diffbutton = document.createElement("button");
+        diffbutton.textContent = difficulty.label;
+        diffbutton.classList.add("diff-btn");
+        diffbutton.onclick = () => startQuiz(topic, difficulty.key);
+        diffSelection.appendChild(diffbutton);
+    });
+
+    const backToTopicsBtn = document.createElement("button");
+    backToTopicsBtn.textContent = "Zurück zu den Themen";
+    backToTopicsBtn.classList.add("return-btn");
+    backToTopicsBtn.onclick = () => {
+        diffSelection.style.display = "none";
+        showTopics();
+    };
+    diffSelection.appendChild(backToTopicsBtn);
+}
+
+function getQuestionsForDifficulty(topic, difficultyKey) {
+    const source = questions[topic] || [];
+
+    if (difficultyKey === "easy" || difficultyKey === "hard") {
+        return source.filter((q) => q.difficulty === difficultyKey);
+    }
+
+    if (difficultyKey === "random") {
+        return [...source].sort(() => Math.random() - 0.5);
+    }
+
+    return source;
+}
+
+function startQuiz(topic, difficultyKey = "hard") {
     currentTopic = topic;
     currentQuestionIndex = 0;
     score = 0;
+    currentQuestions = getQuestionsForDifficulty(topic, difficultyKey);
+
+    if (currentQuestions.length === 0) {
+        questionText.textContent = "Keine Fragen für dieses Thema gefunden.";
+        answersDiv.innerHTML = "";
+        quizArea.style.display = "block";
+        topicDiv.style.display = "none";
+        diffSelection.style.display = "none";
+        return;
+    }
+
     topicDiv.style.display = "none";
     quizArea.style.display = "block";
     returnDiv.style.display = "none";
+    diffSelection.style.display = "none";
     showQuestion();
 }
 
 function showQuestion() {
-    const questionsArray = questions[currentTopic];
+    const questionsArray = currentQuestions;
     const q = questionsArray[currentQuestionIndex];
     
     progressDiv.textContent = `Frage ${currentQuestionIndex + 1} von ${questionsArray.length}`;
@@ -95,7 +154,7 @@ function showQuestion() {
 }
 
 function checkAnswer(selectedIndex, clickedButton) {
-    const q = questions[currentTopic][currentQuestionIndex];
+    const q = currentQuestions[currentQuestionIndex];
     const allButtons = answersDiv.querySelectorAll(".answer-btn");
     
     allButtons.forEach(btn => btn.style.pointerEvents = "none");
@@ -110,7 +169,7 @@ function checkAnswer(selectedIndex, clickedButton) {
 
     setTimeout(() => { // here timer for when the next question comes, now after 1.5s. Instead implement a "next question" button?
         currentQuestionIndex++;
-        if (currentQuestionIndex < questions[currentTopic].length) {
+        if (currentQuestionIndex < currentQuestions.length) {
             showQuestion();
         } else {
             endQuiz();
@@ -120,7 +179,7 @@ function checkAnswer(selectedIndex, clickedButton) {
 
 function endQuiz() {
     progressDiv.textContent = "";
-    questionText.textContent = `Quiz beendet! Deine Punktzahl: ${score} von ${questions[currentTopic].length}`;
+    questionText.textContent = `Quiz beendet! Deine Punktzahl: ${score} von ${currentQuestions.length}`;
     answersDiv.innerHTML = "";
     
     returnDiv.innerHTML = "";

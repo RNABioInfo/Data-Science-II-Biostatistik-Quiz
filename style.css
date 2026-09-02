@@ -35,6 +35,14 @@ body {
     max-width: 900px;
 }
 
+#diff-selection {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    width: 100%;
+    max-width: 900px;
+}
+
 .topic-btn {
     background-color: var(--white);
     color: var(--text-color);
@@ -166,4 +174,29 @@ body {
 .wrong {
     background-color: #e74c3c !important;
     color: white !important;
+}
+
+.diff-btn {
+    background-color: var(--white);
+    color: var(--text-color);
+    border: 2px solid var(--primary);
+    border-radius: 8px;
+    padding: 15px;
+    font-size: 1.1rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+}
+
+.diff-btn:hover {
+    background-color: var(--primary);
+    color: var(--white);
+    transform: translateY(-3px);
+    box-shadow: 0 6px 12px rgba(0,0,0,0.1);
 }
